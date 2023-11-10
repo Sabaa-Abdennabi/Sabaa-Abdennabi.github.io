@@ -1,0 +1,39 @@
+h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+img{
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+}
+body {
+    background: linear-gradient(to bottom, black, darkred);
+    margin: 0;  /* Remove default margin to ensure gradient covers the entire viewport */
+    height: 100vh;  /* Set the height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; } /* Set text color to white for better visibility */
+p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
